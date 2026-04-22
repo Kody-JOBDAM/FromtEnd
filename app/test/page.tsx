@@ -19,6 +19,12 @@ export default function Test() {
                 placeholder="테스트 입력창"
                 title="제목"
                 skin="filled"
+                p="비밀번호 변경"
+            />
+            <InputField 
+                placeholder="테스트 입력창"
+                title="제목"
+                skin="filled"
                 errormsg="* 잘못된 비밀번호입니다."
                 p="비밀번호 변경"
             />
