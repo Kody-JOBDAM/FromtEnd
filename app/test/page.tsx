@@ -1,12 +1,13 @@
 'use client';
 import { Input, Button, Option } from "../components/atoms";
 import { InputField } from "../components/molecules";
-import { Header } from "../components/organisms";
+import { Header, HeaderTwo } from "../components/organisms";
 
 export default function Test() {
     return (
         <div>
             <Header />
+            <HeaderTwo />
             <Input 
                 placeholder="테스트 입력창"
             />
